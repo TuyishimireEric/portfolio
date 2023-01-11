@@ -1,0 +1,163 @@
+.about {
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-story {
+    width: 50%;
+}
+
+.about .my-story h2 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+h6 {
+    color: #75dab4;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    margin-bottom: 5px;
+}
+
+.skills h6 {
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+.about .my-story p {
+    color: #c8c8c8;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 24px 0;
+    text-align: justify;
+}
+
+.my-story a {
+    text-decoration: none;
+    padding: 7px 16px;
+    width: auto;
+    width: 40%;
+    height: 36px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: none;
+    font-weight: 300;
+    padding: 4px 6px;
+    background-color: transparent;
+    border: 1px solid #75dab365;
+    transition: all 0.3s;
+}
+
+.my-story a:hover {
+    background-color: #75dab35b;
+}
+
+.about .my-story a p {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 300;
+    position: absolute;
+    z-index: 2;
+}
+
+.skills {
+    width: 40%;
+}
+
+.skills h2 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.bar {
+    width: 100%;
+    height: 60px;
+}
+
+.bar .title {
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5 {
+    background-color: #75dab4;
+    padding: 1px 6px;
+    color: #181b22;
+    border-radius: 4%;
+}
+
+.bar-back {
+    width: 100%;
+    position: relative;
+    height: 7px;
+    background-color: #181b22;
+    overflow: hidden;
+}
+
+.bar-front {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    background-color: #75dab4;
+}
+
+.bar-front.html {
+    width: 90%;
+}
+
+.bar-front.react {
+    width: 75%;
+}
+
+.bar-front.js {
+    width: 80%;
+}
+
+.bar-front.rails {
+    width: 68%;
+}
+
+.bar-front.design {
+    width: 89%;
+}
+
+.bar-front.algo {
+    width: 72%;
+}
+
+@media screen and (max-width: 975px) {
+    .about {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    
+    .my-story {
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%;
+    }
+}
