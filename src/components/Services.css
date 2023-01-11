@@ -1,307 +1,300 @@
+/* stylelint-disable no-descending-specificity */
 .services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 8%;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 8%;
+  position: relative;
 }
 
 .services h2 {
-    font-size: 80px;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 8px rgb(255 255 255 / 5%);
+}
+
+.services .service-back {
+  background-color: #11141b;
+  bottom: 0;
+  left: 0;
+  height: 480px;
+  z-index: 1;
+  margin: 250px -9%;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.service-cards {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -120px;
+}
+
+.service-cards .card {
+  width: 30%;
+  border: 1px dotted #c8c8c8;
+  position: relative;
+  cursor: pointer;
+}
+
+.service-cards .card .in-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #151921;
+  padding: 34px;
+  gap: 12px;
+  transition: 0.2s linear;
+}
+
+.service-cards .card .in-card:hover {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.service-cards .card img {
+  width: 50px;
+  margin-bottom: 24px;
+}
+
+.service-cards .card p {
+  color: #c8c8c8;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+}
+
+.talk {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.talk h2 {
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 1.2;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  letter-spacing: -2px;
+}
+
+.talk a {
+  border: 1px solid #fff;
+  padding: 6px 80px;
+  text-decoration: none;
+  font-size: larger;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.talk a p {
+  z-index: 2;
+}
+
+.talk a span {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #151921;
+  z-index: 1;
+  transition: 0.5s linear;
+  transition-delay: 0.5s;
+  transition-timing-function: cubic-bezier(0.8, 1.6, 0.4, 0.7);
+}
+
+.talk a span p {
+  color: #c8c8c8;
+  padding: 6px 80px;
+}
+
+.talk a:hover span {
+  left: 0;
+  top: 0;
+  transition: 0.5s linear;
+  transition-delay: 0.5s;
+  transition-timing-function: cubic-bezier(0.8, 1.6, 0.4, 0.7);
+}
+
+.methodology {
+  margin: 50px 0;
+}
+
+.methodology h6 {
+  font-size: large;
+  color: #fff;
+}
+
+.method-container {
+  display: flex;
+  height: 400px;
+  margin: 8% 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.method-1 {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.method-1 .shape {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #11141b;
+  border: 18px solid #151921;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.method-1 .shape img {
+  width: 50px;
+  height: 50px;
+}
+
+.method-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin: 8%;
+}
+
+.method-desc h3 {
+  color: #c8c8c8;
+}
+
+.method-desc span {
+  font-size: 52px;
+  margin-bottom: 0;
+  color: #c8c8c84e;
+}
+
+.pointer {
+  width: 60px;
+  height: 60px;
+  opacity: 70%;
+}
+
+.pointer.down {
+  rotate: 45deg;
+}
+
+.pointer.up {
+  rotate: -45deg;
+}
+
+@media screen and (max-width: 1040px) {
+  .services {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .services h2 {
+    font-size: 70px;
+  }
+
+  .services .service-back {
+    background-color: transparent;
+    height: 480px;
+    z-index: 1;
+    margin: 200px 0;
+    padding: 0;
+  }
+
+  .service-cards {
+    height: 950px;
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -120px;
+    gap: 50px;
+  }
+
+  .service-cards .card {
+    height: 300px;
+    width: 100%;
+    border: 1px dotted #c8c8c8;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .methodology {
+    display: none;
+  }
+
+  .talk {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .services {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 500px;
+  }
+
+  .service-cards {
+    height: 1250px;
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -120px;
+    gap: 50px;
+  }
+
+  .service-cards .card {
+    height: 380px;
+    width: 100%;
+    border: 1px dotted #c8c8c8;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .service-cards .card img {
+    width: 50px;
+    margin-bottom: 1px;
+  }
+
+  .services h2 {
+    font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 0 8px rgb(255 255 255 / 5%);
-}
-
-.services .service-back {
-    background-color: #11141b;
-    bottom: 0;
-    left: 0;
-    height: 480px;
-    z-index: 1;
-    margin: 250px -9%;
-    padding: 0 10%;
-    text-align: center;
-}
-
-.service-cards {
-    height: 350px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -120px;
-}
-
-.service-cards .card {
-    width: 30%;
-    border: 1px dotted #c8c8c8;
-    position: relative;
-    cursor: pointer;
-}
-
-.service-cards .card .in-card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    background-color: #151921;
-    padding: 34px;
-    gap: 12px;
-    transition: 0.2s linear;
-}
-
-.service-cards .card .in-card:hover {
-    position: absolute;
-    top: -30px;
-    left: -30px;
-}
-
-
-.service-cards .card img {
-    width: 50px;
-    margin-bottom: 24px;
-}
-
-.service-cards .card p {
-    color: #c8c8c8;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 2;
-    text-align: center;
-}
-
-.talk {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0;
-}
-
-
-.talk h2 {
-    font-weight: 700;
-    font-size: 4vw;
-    line-height: 1.2;
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    color: transparent;
-    font-family: 'Barlow Condensed', sans-serif;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    letter-spacing: -2px;
-}
-
-.talk a {
-    border: 1px solid #fff;
-    padding: 6px 80px;
-    text-decoration: none;
-    font-size: larger;
-    border-radius: 4px;
-    position: relative;
-    overflow: hidden;
-}
-
-.talk a p {
-    z-index: 2;
-}
-
-.talk a span {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: #151921;
-    z-index: 1;
-    transition: 0.5s linear;
-    transition-delay: 0.5s;
-    transition-timing-function: cubic-bezier(0.8,1.6,0.4,0.7);
-}
-
-.talk a span p {
-    color: #c8c8c8;
-    padding: 6px 80px;
-}
-
-.talk a:hover span {
-    left: 0;
-    top: 0;
-    transition: 0.5s linear;
-    transition-delay: 0.5s;
-    transition-timing-function: cubic-bezier(0.8,1.6,0.4,0.7);
-}
-
-.methodology {
-    margin: 50px 0;
-}
-
-.methodology h6 {
-    font-size: large;
-    color: #fff;
-}
-
-.method-container {
-    display: flex;
-    height: 400px;
-    margin: 8% 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.method-1 {
-    width: 17%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;
-}
-
-.method-1 .shape {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    background-color: #11141b;
-    border: 18px solid #151921;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.method-1 .shape img {
-    width: 50px;
-    height: 50px;
-}
-
-.method-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    justify-content: center;
-    align-items: center;
-    margin: 8%;
-}
-
-.method-desc h3 {
-    color: #c8c8c8;
-}
-
-.method-desc span {
-    font-size: 52px;
-    margin-bottom: 0;
-    color:#c8c8c84e;
-}
-
-.pointer {
-    width: 60px;
-    height: 60px;
-    opacity: 70%;
-}
-
-.pointer.down {
-    rotate: 45deg;
-}
-
-.pointer.up {
-    rotate: -45deg;
-}
-
-@media screen and (max-width: 1040px) {
-    .services {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 50px;
-    }
-    
-    .services h2 {
-        font-size: 70px;
-    }
-    
-    .services .service-back {
-        background-color: #a6acb9;
-        height: 480px;
-        z-index: 1;
-        margin: 200px 0;
-        padding: 0;
-    }
-    
-    .service-cards {
-        height: 950px;
-        width: 100vw;
-        padding: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: -120px;
-        gap: 50px;
-    }
-    
-    .service-cards .card {
-        height: 300px;
-        width: 100%;
-        border: 1px dotted #c8c8c8;
-        position: relative;
-        cursor: pointer;
-    }
-    
-    .methodology {
-        display: none;
-    }
-
-    .services .service-back {
-        background-color: transparent;
-    }
-
-    .talk {
-       display: none;
-    }
-}
-
-@media screen and (max-width: 786px) {
-    .services {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 500px;
-    }
-
-    .service-cards {
-        height: 1250px;
-        width: 100vw;
-        padding: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: -120px;
-        gap: 50px;
-    }
-    
-    .service-cards .card {
-        height: 380px;
-        width: 100%;
-        border: 1px dotted #c8c8c8;
-        position: relative;
-        cursor: pointer;
-    }
-
-    
-    .service-cards .card img {
-        width: 50px;
-        margin-bottom: 1px;
-    }
-
-    .services h2 {
-        font-size: 60px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-shadow: 0 8px rgb(255 255 255 / 5%);
-    }
+  }
 }

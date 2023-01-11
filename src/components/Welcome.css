@@ -55,7 +55,6 @@ main p {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 25px;
-
 }
 
 .social {
@@ -114,7 +113,7 @@ main p {
   main h6 {
     font-size: 14px;
   }
-  
+
   main h1 {
     font-size: 60px;
     margin-bottom: 6px;
@@ -122,6 +121,5 @@ main p {
 
   main p {
     font-size: 18px;
-  
   }
 }
