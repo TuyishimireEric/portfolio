@@ -1,7 +1,7 @@
 import './Testimonies.css';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 import { Carousel } from 'react-responsive-carousel';
 
 function Testimonies() {
