@@ -1,4 +1,4 @@
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 import soft from '../images/soft.png';
 import review from '../images/review.png';
 import design from '../images/design.png';
