@@ -60,15 +60,17 @@ function Contact() {
         />
       </section>
       <footer>
-        <h4>let&apos;s connect</h4>
         <ul className="social">
-          <li><a href="https://github.com/TuyishimireEric"><img src={github} alt="github" /></a></li>
-          <li><a href="https://www.linkedin.com/in/tuyishimireeric/"><img src={linkedin} alt="github" /></a></li>
-          <li><a href="mailto:email@example.com?subject=portfolio"><img src={gmail} alt="github" /></a></li>
-          <li><a href="https://twitter.com/TuyishimirEric?t=2eZF5gQGecCpfZW-gEoDOw&s=08"><img src={twitter} alt="github" /></a></li>
-          <li><a href="https://venture.angellist.com/v/tuyishimire-eric/i/tuyishimire-eric/portfolio/dashboard"><img src={angelist} alt="github" /></a></li>
+          <li><a href="https://github.com/TuyishimireEric" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a></li>
+          <li><a href="https://www.linkedin.com/in/tuyishimireeric/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="github" /></a></li>
+          <li><a href="mailto:email@example.com?subject=portfolio" target="_blank" rel="noopener noreferrer"><img src={gmail} alt="github" /></a></li>
+          <li><a href="https://twitter.com/TuyishimirEric?t=2eZF5gQGecCpfZW-gEoDOw&s=08" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="github" /></a></li>
+          <li><a href="https://angel.co/u/tuyishimire-eric" target="_blank" rel="noopener noreferrer"><img src={angelist} alt="github" /></a></li>
         </ul>
-        <h6>Tuyishimire Eric | 2023</h6>
+        <br />
+        <h5>let&apos;s connect | tuyishimireericc@gmail.com</h5>
+        <br />
+        <h6>© 2021 Eric Tuyishimire</h6>
       </footer>
     </>
   );

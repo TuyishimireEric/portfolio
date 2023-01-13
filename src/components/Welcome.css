@@ -5,7 +5,7 @@
   width: 100%;
   min-height: 100vh;
   color: #0c0f16;
-  opacity: 0.6;
+  opacity: 0.5;
   z-index: 1;
 }
 
@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   min-height: 100vh;
-  background-image: url('../images/backgroundPic.jpg');
+  background-image: url('../images/bg2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

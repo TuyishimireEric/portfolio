@@ -61,7 +61,7 @@ function Navbar() {
           <li><a href="#portfolio" className={activeLink === 'portfolio' ? 'active' : ''}>Portfolio</a></li>
           <li><a href="#services" className={activeLink === 'services' ? 'active' : ''}>Services</a></li>
           <li><a href="#contact" className={activeLink === 'contact' ? 'active' : ''}>Contact</a></li>
-          <a href="https://docs.google.com/document/d/1BtmG6keWTTbgMbRowW58EEJlnsK38m-NcserRfnckao/edit?usp=sharing" className="button">
+          <a href="https://docs.google.com/document/d/1BtmG6keWTTbgMbRowW58EEJlnsK38m-NcserRfnckao/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">
             <p>Download CV</p>
             <span><img src={download} alt="download" /></span>
           </a>
@@ -78,7 +78,7 @@ function Navbar() {
           <li><a href="#portfolio" className={activeLink === 'portfolio' ? 'active' : ''}>Portfolio</a></li>
           <li><a href="#services" className={activeLink === 'services' ? 'active' : ''}>Services</a></li>
           <li><a href="#contact" className={activeLink === 'contact' ? 'active' : ''}>Contact</a></li>
-          <a href="https://docs.google.com/document/d/1BtmG6keWTTbgMbRowW58EEJlnsK38m-NcserRfnckao/edit?usp=sharing" className="button">
+          <a href="https://docs.google.com/document/d/1BtmG6keWTTbgMbRowW58EEJlnsK38m-NcserRfnckao/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">
             <p>Download CV</p>
             <span><img src={download} alt="download" /></span>
           </a>

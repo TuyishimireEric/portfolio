@@ -22,8 +22,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://reserve-car.onrender.com/">Live</a>
-                <a href="https://github.com/learnwithalfred/backend-microverse-final-capstone">Codes</a>
+                <a href="https://reserve-car.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://github.com/learnwithalfred/backend-microverse-final-capstone" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
@@ -44,8 +44,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://tuyishimireeric.github.io/Capstone-Project-CHOGUM/index.html">Live</a>
-                <a href="https://github.com/TuyishimireEric/Capstone-Project-CHOGUM">Codes</a>
+                <a href="https://tuyishimireeric.github.io/Capstone-Project-CHOGUM/index.html" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://github.com/TuyishimireEric/Capstone-Project-CHOGUM" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
@@ -67,8 +67,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://tuyishimireeric.github.io/JavaScript-group-capstone/dist/">Live</a>
-                <a href="https://github.com/TuyishimireEric/JavaScript-group-capstone">Codes</a>
+                <a href="https://tuyishimireeric.github.io/JavaScript-group-capstone/dist/" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://github.com/TuyishimireEric/JavaScript-group-capstone" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
@@ -87,8 +87,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://tuyishimireeric.github.io/Leaderboard/dist/">Live</a>
-                <a href="https://github.com/TuyishimireEric/Leaderboard">Codes</a>
+                <a href="https://tuyishimireeric.github.io/Leaderboard/dist/" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://github.com/TuyishimireEric/Leaderboard" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
@@ -108,8 +108,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://et-online-shopping.netlify.app/2">Live</a>
-                <a href="https://github.com/TuyishimireEric/online-shopping">Codes</a>
+                <a href="https://et-online-shopping.netlify.app/2" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://github.com/TuyishimireEric/online-shopping" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
@@ -129,8 +129,8 @@ function Portfolio() {
               </p>
 
               <div className="btns">
-                <a href="https://github.com/TuyishimireEric/math_magician">Live</a>
-                <a href="https://ericalculator.netlify.app/Calculator">Codes</a>
+                <a href="https://github.com/TuyishimireEric/math_magician" target="_blank" rel="noopener noreferrer">Live</a>
+                <a href="https://ericalculator.netlify.app/Calculator" target="_blank" rel="noopener noreferrer">Codes</a>
               </div>
             </div>
           </div>
