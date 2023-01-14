@@ -74,6 +74,13 @@ textarea {
   width: 46%;
   height: 100%;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact-info p span {
+  color: #75dab3;
 }
 
 .contact-right iframe {
@@ -83,13 +90,13 @@ textarea {
 
 footer {
   width: 100%;
-  height: 200px;
+  height: 60px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #13161d;
   align-items: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 1040px) {

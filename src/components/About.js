@@ -22,7 +22,7 @@ function About() {
           I am committed to delivering high-quality solutions for my clients and partners.
         </p>
 
-        <a href="https://docs.google.com/document/d/1BtmG6keWTTbgMbRowW58EEJlnsK38m-NcserRfnckao/edit?usp=sharing" className="button" target="_blank" rel="noopener noreferrer">Download CV</a>
+        <a href="my resume.pdf" download="my resume.pdf" className="button">Download CV</a>
       </div>
       <div className="skills">
         <h2>Skills</h2>

@@ -43,7 +43,31 @@ function Contact() {
             <button type="submit">Send</button>
           </form>
           <div className="contact-right">
-            <iframe width="600" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=kigali%20city%20tower&t=&z=17&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" />
+            <div className="contact-info">
+              <p>
+                <span>Email:</span>
+                {' '}
+                tuyishimirericc@gmail.com
+              </p>
+              <p>
+                <span>Phone:</span>
+                {' '}
+                +250 780 313 448
+              </p>
+              <p>
+                <span>Address: </span>
+                {' '}
+                Kigali, Rwanda
+              </p>
+            </div>
+            <iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=kigali%20city%20tower&t=&z=17&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" />
+            <ul className="social">
+              <li><a href="https://github.com/TuyishimireEric" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a></li>
+              <li><a href="https://www.linkedin.com/in/tuyishimireeric/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="github" /></a></li>
+              <li><a href="mailto:email@example.com?subject=portfolio" target="_blank" rel="noopener noreferrer"><img src={gmail} alt="github" /></a></li>
+              <li><a href="https://twitter.com/TuyishimirEric?t=2eZF5gQGecCpfZW-gEoDOw&s=08" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="github" /></a></li>
+              <li><a href="https://angel.co/u/tuyishimire-eric" target="_blank" rel="noopener noreferrer"><img src={angelist} alt="github" /></a></li>
+            </ul>
           </div>
         </div>
         <ToastContainer
@@ -60,15 +84,6 @@ function Contact() {
         />
       </section>
       <footer>
-        <ul className="social">
-          <li><a href="https://github.com/TuyishimireEric" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a></li>
-          <li><a href="https://www.linkedin.com/in/tuyishimireeric/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="github" /></a></li>
-          <li><a href="mailto:email@example.com?subject=portfolio" target="_blank" rel="noopener noreferrer"><img src={gmail} alt="github" /></a></li>
-          <li><a href="https://twitter.com/TuyishimirEric?t=2eZF5gQGecCpfZW-gEoDOw&s=08" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="github" /></a></li>
-          <li><a href="https://angel.co/u/tuyishimire-eric" target="_blank" rel="noopener noreferrer"><img src={angelist} alt="github" /></a></li>
-        </ul>
-        <br />
-        <h5>let&apos;s connect | tuyishimireericc@gmail.com</h5>
         <br />
         <h6>© 2021 Eric Tuyishimire</h6>
       </footer>
